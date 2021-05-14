@@ -10,7 +10,8 @@ function api(pokemon){
     .then(res=> res.json())
     .then((data)=> {
         let pic = document.querySelector("#pokeimg");
-        pic.src=data.sprites.front_default;
+        /*pic.src=data.sprites.front_default;*/
+		pic.src=data.sprites.other.dream_world.front_default;
         document.getElementById("name").textContent = data.name;
         let type = document.querySelector("#type");
         type.textContent = `${data.types[0].type.name} type pokemon`;
