@@ -3,4 +3,4 @@ Simple pokedex written with HTML, CSS and Javascript. It uses pokeapi to get pok
 ## Link
 https://frntrq.github.io/Pokedex/
 
-![Pokedex](pokedex.png)
+![Pokedex](pokedex.PNG)
